@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Square Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white p-6 rounded-xl shadow-xl w-full max-w-md">
+    <h3 class="text-xl font-bold text-center text-blue-700 mb-4">
+      🔢 Find the Square of Positive Numbers
+    </h3>
+
+    <div class="space-y-4">
+      <input 
+        type="number" 
+        id="num" 
+        placeholder="Enter a positive number"
+        class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+
+      <button 
+        onclick="square();" 
+        class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
+      >
+        Calculate
+      </button>
+
+      <div 
+        id="result" 
+        class="text-center mt-4 font-semibold text-blue-600"
+      ></div>
+    </div>
+  </div>
+
+  <script>
+    function square() {
+      let num = Number(document.getElementById("num").value);
+
+      let result = (num > 0)
+        ? num + " ^ " + "2" + " = "+ num * num
+        : " Please enter a positive number.";
+
+      document.getElementById("result").innerHTML = result;
+    }
+  </script>
+</body>
+</html>
