@@ -1,9 +1,9 @@
-# 🔢 Square Calculator
+------
 
-This is a simple web application built with **HTML**, **JavaScript**, and **Tailwind CSS** that calculates the **square of a positive number** entered by the user.
+## 👤 Author
 
----
-
+** Roya Hossaini**  
+🔗 GitHub: [@Hossaini1414](https://github.com/Hossaini1414)
 ## 🚀 Features
 
 - User enters a positive number.
@@ -16,15 +16,5 @@ This is a simple web application built with **HTML**, **JavaScript**, and **Tail
 ## 🛠 Technologies Used
 
 - HTML5
-- JavaScript (ES6)
-- Tailwind CSS (via CDN)
-
----
-
-## 📷 Screenshot
-
-![screenshot](./screenshot.png) <!-- Replace with your own screenshot if you have one -->
-
----
-
-## 📂 Project Structure
+- JavaScript
+- Tailwind CSS 
